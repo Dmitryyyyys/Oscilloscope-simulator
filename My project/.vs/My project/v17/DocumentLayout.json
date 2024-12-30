@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\unity projects\\My project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\unity projects\\my project\\assets\\scenes\\table\\cleartable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\table\\cleartable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\table\\calculateamplitude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\table\\calculateamplitude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\scriptsbuttons\\onoffbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scriptsbuttons\\onoffbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\scriptsbuttons\\speedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scriptsbuttons\\speedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\scriptsbuttons\\rotatebutton2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scriptsbuttons\\rotatebutton2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\scriptsbuttons\\buttonrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scriptsbuttons\\buttonrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\shaders\\oscillographshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\shaders\\oscillographshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\practic\\closepanelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\practic\\closepanelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\scriptsbuttons\\buttontypegraphs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scriptsbuttons\\buttontypegraphs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\table\\secondcalculated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\table\\secondcalculated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\unity projects\\My project\\assets\\scenes\\scriptsnotepad\\movetotarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scriptsnotepad\\movetotarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OnOffButton.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\OnOffButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scriptsbuttons\\OnOffButton.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\OnOffButton.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scriptsbuttons\\OnOffButton.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:21:07.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpeedButton.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\SpeedButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scriptsbuttons\\SpeedButton.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\SpeedButton.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scriptsbuttons\\SpeedButton.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:20:29.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RotateButton2.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\RotateButton2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scriptsbuttons\\RotateButton2.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\RotateButton2.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scriptsbuttons\\RotateButton2.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:19:24.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ButtonRotation.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\ButtonRotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scriptsbuttons\\ButtonRotation.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\ButtonRotation.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scriptsbuttons\\ButtonRotation.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:16:18.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OscillographShader.shader",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\shaders\\OscillographShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\shaders\\OscillographShader.shader",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\shaders\\OscillographShader.shader",
+              "RelativeToolTip": "Assets\\Scenes\\shaders\\OscillographShader.shader",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-12-09T06:44:37.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MoveToTarget.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsnotepad\\MoveToTarget.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scriptsnotepad\\MoveToTarget.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsnotepad\\MoveToTarget.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scriptsnotepad\\MoveToTarget.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAywFMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T06:38:52.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClearTable.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\table\\ClearTable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\table\\ClearTable.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\table\\ClearTable.cs",
+              "RelativeToolTip": "Assets\\Scenes\\table\\ClearTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:08:38.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SecondCalculated.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\table\\SecondCalculated.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\table\\SecondCalculated.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\table\\SecondCalculated.cs",
+              "RelativeToolTip": "Assets\\Scenes\\table\\SecondCalculated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T03:47:33.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculateAmplitude.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\table\\CalculateAmplitude.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\table\\CalculateAmplitude.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\table\\CalculateAmplitude.cs",
+              "RelativeToolTip": "Assets\\Scenes\\table\\CalculateAmplitude.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T03:27:58.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ButtonTypeGraphs.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\ButtonTypeGraphs.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\scriptsbuttons\\ButtonTypeGraphs.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\scriptsbuttons\\ButtonTypeGraphs.cs",
+              "RelativeToolTip": "Assets\\Scenes\\scriptsbuttons\\ButtonTypeGraphs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T01:04:23.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClosePanelButton.cs",
+              "DocumentMoniker": "C:\\unity projects\\My project\\Assets\\Scenes\\practic\\ClosePanelButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\practic\\ClosePanelButton.cs",
+              "ToolTip": "C:\\unity projects\\My project\\Assets\\Scenes\\practic\\ClosePanelButton.cs",
+              "RelativeToolTip": "Assets\\Scenes\\practic\\ClosePanelButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T00:31:00.129Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
