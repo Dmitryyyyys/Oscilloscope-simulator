@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Структура установки</title>
+    <link rel="stylesheet" href="menu.css">
+    
+    <!-- Подключаем библиотеки для CreateJS и вашего Canvas-кода -->
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="Безымянныйыва-1_HTML5 Canvas.js?1726430430249"></script>
+<style>
+    
+    </style>
+    <script>
+        var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+        function init() {
+            canvas = document.getElementById("canvas");
+            anim_container = document.getElementById("animation_container");
+            dom_overlay_container = document.getElementById("dom_overlay_container");
+            var comp=AdobeAn.getComposition("6EC8A45347F74E44983B71564666FAF3");
+            var lib=comp.getLibrary();
+            var loader = new createjs.LoadQueue(false);
+            loader.installPlugin(createjs.Sound);
+            loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+            loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+            var lib=comp.getLibrary();
+            loader.loadManifest(lib.properties.manifest);
+        }
+
+        function handleFileLoad(evt, comp) {
+            var images=comp.getImages();    
+            if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }    
+        }
+
+        function handleComplete(evt, comp) {
+            var lib=comp.getLibrary();
+            var ss=comp.getSpriteSheet();
+            var queue = evt.target;
+            var ssMetadata = lib.ssMetadata;
+            for(i=0; i<ssMetadata.length; i++) {
+                ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+            }
+            exportRoot = new lib.Безымянныйыва1_HTML5Canvas();
+            stage = new lib.Stage(canvas);
+            stage.enableMouseOver();    
+            fnStartAnimation = function() {
+                stage.addChild(exportRoot);
+                createjs.Ticker.framerate = lib.properties.fps;
+                createjs.Ticker.addEventListener("tick", stage);
+            }        
+            AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);    
+            AdobeAn.compositionLoaded(lib.properties.id);
+            fnStartAnimation();
+        }
+
+        function playSound(id, loop, offset) {
+            return createjs.Sound.play(id, {'interrupt':createjs.Sound.INTERRUPT_EARLY, 'loop': loop, 'offset': offset});
+        }
+    </script>
+</head>
+<body onload="init();" style="margin:0px;">
+    <div class="main-menu-container">
+        <nav class="main-menu" id="menu">
+            <ul>
+                <li><a href="main.html">Теоритические сведения</a></li> 
+                <li><a href="structure.html">Структура установки</a></li>   
+                <li><a href="simulator.html">Симулятор установки</a></li>
+                <li><a href="oscilograf.html">На главную</a></li>   
+            </ul>
+        </nav>    
+    </div>
+    <button id="menu-toggle" class="menu-toggle">&#9776; Меню</button> 
+
+    <div class="content-container">
+        <h1>Структура осциллографа</h1>
+
+        <section id="purpose" class="section">
+            <img src="Oscilloscope_Front_Panel_Numbered.svg.png" class="theory-image" id="r2">
+        </section>
+
+        <section class="section">
+            <h2>Устройство</h2>
+            <p>Осциллограф с дисплеем на базе ЭЛТ состоит из следующих основных частей:</p>
+            <ul>
+                <li id="item1" onmousedown="toim('r2', 'Устройство_осциллографической_ЭЛТ.png')" onmouseout="totext('item1', 'Осциллографическая электронно-лучевая трубка')">Осциллографическая электронно-лучевая трубка;</li>
+                <li id="item2" onmousedown="toim('r2', 'ya4s-101-photo-3.jpg')" onmouseout="totext('item2', 'Блок горизонтальной развёртки')">Блок горизонтальной развёртки. Генерирует периодический или однократный сигнал пилообразной формы, который подаётся на пластины горизонтального отклонения ЭЛТ. Во время спадающей фазы (обратный ход луча) также формируется импульс гашения электронного луча, который подаётся на модулятор ЭЛТ;</li>
+                <li id="item3" onmousedown="toim('r2', '4625289fb5470a4f59543fb62e1f2f17.png')" onmouseout="totext('item3', 'Входной усилитель')">Входной усилитель исследуемого сигнала, выход которого подключён к пластинам вертикального отклонения ЭЛТ.</li>
+            </ul>    
+        </section>
+
+        <!-- Добавление Canvas с анимацией -->
+      <section class="section">
+    <h2>Анимация структуры осциллографа</h2>
+    <div id="animation_container" class="responsive-container">
+        <canvas id="canvas" class="responsive-canvas" ></canvas>
+        <div id="dom_overlay_container" class="responsive-overlay"></div>
+    </div>
+</section>
+</body>
+</html>

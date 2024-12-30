@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Структура установки</title>
+    <link rel="stylesheet" href="menu.css">
+    <style>
+        .content-container video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("menu-toggle").addEventListener("click", function () {
+                var sideMenu = document.getElementById("menu");
+                sideMenu.classList.toggle("active");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="main-menu-container">
+        <nav class="main-menu" id="menu">
+            <ul>
+                <li><a href="main.html">Теоретические сведения</a></li>
+                <li><a href="structure.html">Структура установки</a></li>
+                <li><a href="simulator.html">Симулятор установки</a></li>
+                <li><a href="oscilograf.html">На главную</a></li>
+            </ul>
+        </nav>
+    </div>
+    <button id="menu-toggle" class="menu-toggle">&#9776; Меню</button>
+
+   
+           
+    </div>
+    <div align ="center">
+        <a href="index.html" style="font-size: 20px; color: blue; text-decoration: underline;">
+            Перейти на страницу index.html
+        </a>
+    </div>
+</body>
+</html>
